@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <plato tipo="entrantes">
+        <title>Entrantes:</title>
+        <nombre>Brezel</nombre>
+        <castella>(Pretzel)</castella>
+        <precio>3€</precio>
+        <descripcion>Pan horneado en forma de lazo, con una superficie crujiente y salada.</descripcion>
+        <calorias>400 calorías por unidad.</calorias>
+        <imagen src="./img/entrantes/pretzel.jpg"></imagen>
+        <alergenos>
+            <items src="./icons/gluten.ico"></items>
+        </alergenos>
+    </plato>
+    <plato tipo="platos">
+        <nombre>Schweinshaxe</nombre>
+        <title>Platos:</title>
+        <castella>(Codillo de Cerdo)</castella>
+        <precio>15€</precio>
+        <descripcion>Codillo de cerdo asado al horno, crujiente por fuera y tierno por dentro, sazonado con especias tradicionales alemanas.</descripcion>
+        <calorias>900 calorías por porción</calorias>
+        <imagen src="./img/platos/schweinshaxe.jpg"></imagen>
+        <alergenos>
+            <items>No tiene alérgenos.</items>
+        </alergenos>
+    </plato>
+    <plato tipo="platos">
+        <nombre>Bratwurst</nombre>
+        <castella>(Salchicha Alemana)</castella>
+        <precio>8€</precio>
+        <descripcion>Salchicha de cerdo fresca o ahumada, condimentada con una mezcla de especias y asada o cocida.</descripcion>
+        <calorias>250 calorías por unidad.</calorias>
+        <imagen src="./img/platos/bratwurst.jpg"></imagen>
+        <alergenos>
+            <items src="./icons/gluten.ico"></items>
+        </alergenos>
+    </plato>
+    <plato tipo="entrantes">
+        <nombre>Gurkensalat</nombre>
+        <castella>(Ensalada de Pepino)</castella>
+        <precio>3€</precio>
+        <descripcion>Rodajas finas de pepino marinadas en vinagre, azúcar y eneldo.</calorias>
+        <imagen src="./img/entrantes/gurkensalat.jpg"></imagen>
+        <alergenos>
+            <items>No tiene alergenos.</items>
+        </alergenos>
+    </plato>
+    <plato tipo="platos">
+        <nombre>Sauerkraut</nombre>
+        <castella>(Chucrut)</castella>
+        <precio>6€</precio>
+        <descripcion>Col fermentada, cortada en finas tiras y cocida con vinagre y especias.</descripcion>
+        <calorias>18 calorías por cada 100g.</calorias>
+        <imagen src="./img/platos/sauerkraut.jpg" ></imagen>
+        <alergenos>
+            <items>No tiene alérgenos.</items>
+        </alergenos>
+    </plato>
+    <plato tipo="platos">
+        <nombre>Königsberger Klopse</nombre>
+        <castella>(Albóndigas de Carne)</castella>
+        <precio>12€</precio>
+        <descripcion>Albóndigas de carne picada de ternera o cerdo en una salsa de alcaparras, cebolla y crema.</descripcion>
+        <calorias>320 calorías por porción.</calorias>
+        <imagen src="./img/platos/konigsberger-klopse.jpg"></imagen>
+        <alergenos>
+            <items src="./icons/gluten.ico"></items>
+        </alergenos>
+    </plato>
+    <plato tipo="postres">
+        <title>Postres:</title>
+        <nombre>Apfelstrudel</nombre>
+        <castella>(Strudel de Manzana)</castella>
+        <precio>7€</precio>
+        <descripcion>Pastel de hojaldre relleno de manzanas, canela y pasas, servido caliente con helado de vainilla.</descripcion>
+        <calorias>350 calorías por porción.</calorias>
+        <imagen src="./img/apfelstrudel.jpg"></imagen>
+        <alergenos>
+            <items src="./icons/gluten.ico"></items>
+        </alergenos>
+    </plato>
+    <plato tipo="platos">
+        <nombre>Sauerbraten</nombre>
+        <castella>(Carne Marinada)</castella>
+        <precio>18€</precio>
+        <descripcion>Carne de res marinada en una mezcla de vinagre, agua, especias y vegetales, luego asada lentamente.</descripcion>
+        <calorias>480calorías por porción.</calorias>
+        <imagen src="./img//platos/sauerbraten.jpg"></imagen>
+        <alergenos>
+            <items>No tiene alérgenos.</items>
+        </alergenos>
+    </plato>
+    <plato tipo="platos">
+        <nombre>Rinderroulade</nombre>
+        <castella>(Rollo de Carne)</castella>
+        <precio>20€</precio>
+        <descripcion>Finas lonchas de carne de res enrolladas con mostaza, tocino, cebolla y pepinillos, cocidas lentamente en salsa de vino tinto.</descripcion>
+        <calorias>350 calorías por porción.</calorias>
+        <imagen src="./img/platos/rinderroulade.jpg"></imagen>
+        <alergenos>
+            <items>No tiene alérgenos.</items>
+        </alergenos>
+    </plato>
+    <plato tipo="entrantes">
+        <nombre>Kartoffelpuffer</nombre>
+        <castella>(Tortitas de Patata)</castella>
+        <precio> 5€</precio>
+        <descripcion>Tortitas fritas de patata rallada, servidas con compota de manzana o crema agria.</descripcion>
+        <calorias>240 calorías por porción.</calorias>
+        <imagen src="./img/entrantes/kartoffelpuffer.jpg"></imagen>
+        <alergenos>
+            <items src="./icons/gluten.ico"></items>
+        </alergenos>
+    </plato>
+    <plato tipo="platos">
+        <nombre>Kartoffelsalat</nombre>
+        <castella>(Ensalada de Patata)</castella>
+        <precio>7€</precio>
+        <descripcion>Patatas cocidas cortadas en rodajas y mezcladas con cebolla, pepinillos, vinagre, mostaza y mayonesa.</descripcion>
+        <calorias>270 calorías por porción.</calorias>
+        <imagen src="./img/platos/kartoffelsalat.jpg"></imagen>
+        <alergenos>
+            <items src="./icons/lacteos.ico"></items>
+        </alergenos>
+    </plato>
+    <plato tipo="platos">
+        <nombre>Kartoffelsuppe</nombre>
+        <castella>(Sopa de Patata)</castella>
+        <precio>6€</precio>
+        <descripcion>Sopa cremosa hecha con patatas, cebolla, apio y a menudo se sirve con trozos de salchicha.</descripcion>
+        <calorias>150 calorías por porción.</calorias>
+        <imagen src="./img/platos/kartoffelsuppe.jpg"></imagen>
+        <alergenos>
+            <items src="./icons/lacteos.ico"></items>
+        </alergenos>
+    </plato>
+    <plato tipo="postres">
+        <nombre>Schwarzwälder Kirschtorte</nombre>
+        <castella>(Tarta Selva Negra)</castella>
+        <precio>8€</precio>
+        <descripcion>Pastel de chocolate con capas de bizcocho de chocolate, cerezas y crema chantilly, con licor de cereza.</descripcion>
+        <calorias>420 calorías por porción.</calorias>
+        <imagen src="./img/potres/schwarzwälder-kirschtorte.jpg"></imagen>
+        <alergenos>
+            <items src="./icons/gluten.ico"></items>
+            <item src="./icons/lacteos.ico"></item>
+        </alergenos>
+    </plato>
+    <plato tipo="platos">
+        <nombre>Wiener Schnitzel</nombre>
+        <castella>(Filete Empanado Vienés)</castella>
+        <precio>14€</precio>
+        <descripcion>Filete de ternera empanado en pan rallado y frito, a menudo servido con limón y papas fritas.</descripcion>
+        <calorias>630 calorías por porción.</calorias>
+        <imagen src="./img/wiener-schnitzel.jpg"></imagen>
+        <alergenos>
+            <items src="./icons/gluten.ico"></items>
+            <item src="./icons/lacteos.ico"></item>
+        </alergenos>
+    </plato>
+    <plato tipo="platos">
+        <nombre>Grünkohl</nombre>
+        <castella>(Col Rizada)</castella>
+        <precio>10€</precio>
+        <descripcion>Col rizada cocida con cebolla, tocino, salchichas y servida con patatas hervidas.</descripcion>
+        <calorias>210 calorías por porción.</calorias>
+        <imagen src="./img/platos/grunkohl.jpeg"></imagen>
+        <alergenos>
+            <items src="./icons/lacteos.ico"></items>
+        </alergenos>
+    </plato>
+    <plato tipo="entrantes">
+        <nombre>Obatzda</nombre>
+        <castella>(Queso Bávaro)</castella>
+        <precio>6€</precio>
+        <descripcion>Mezcla de queso suave, mantequilla, cebolla y condimentos, con pan fresco.</descripcion>
+        <calorias>280 calorías por porción.</calorias>
+        <imagen src="./img/entrantes/obatzda.jpg"></imagen>
+        <alergenos>
+            <items src="./icons/lacteos.ico"></items>
+        </alergenos>
+    </plato>
+    <plato tipo="platos">
+        <nombre>Currywurst</nombre>
+        <castella>(Salchicha con Salsa de Curry)</castella>
+        <precio>9€</precio>
+        <descripcion>Salchicha de cerdo cortada en rodajas y servida con una salsa de kétchup y curry.</descripcion>
+        <calorias>340 calorías por porción.</calorias>
+        <imagen src="./img/platos/currywurst.jpg"></imagen>
+        <alergenos>
+            <items>No tiene alérgenos.</items>
+        </alergenos>
+    </plato>
+    <plato tipo="postres">
+        <nombre>Lebkuchen</nombre>
+        <castella>(Pan de Especias)</castella>
+        <precio>4€</precio>
+        <descripcion>Galletas de jengibre dulces y especiadas, decoradas con glaseado o chocolate.</descripcion>
+        <calorias>150 calorías por galleta.</calorias>
+        <imagen src="./img/potres/lebkuchen.jpg"></imagen>
+        <alergenos>
+            <items src="./icons/gluten.ico"></items>
+            <item src="./icons/sesamo.ico"></item>
+        </alergenos>
+    </plato>
+    <plato tipo="platos">
+        <nombre>Labskaus</nombre>
+        <castella>(Plato de Carne en Puré)</castella>
+        <precio> 13€</precio>
+        <descripcion>Puré de carne de res, tocino y cebolla servido con remolacha y huevo duro.</descripcion>
+        <calorias>500 calorías por porción.</calorias>
+        <imagen src="./img/platos/labskaus.jpg"></imagen>
+        <alergenos>
+            <items src="./icons/lacteos.ico"></items>
+        </alergenos>
+    </plato>
+    <plato tipo="entrantes">
+        <nombre>Heringssalat</nombre>
+        <castella>(Ensalada de Arenque)</castella>
+        <precio>9€</precio>
+        <descripcion>Ensalada hecha con arenque en vinagre, cebolla, manzana, pepinillos y una salsa cremosa.</descripcion>
+        <calorias>310 calorías por porción.</calorias>
+        <imagen src="./img/entrantes/heringssalat.jpeg"></imagen>
+        <alergenos>
+            <items src="./icons/lacteos.ico"></items>
+        </alergenos>
+    </plato>
+    <plato tipo="platos">
+        <nombre>Maultaschen</nombre>
+        <castella>(Raviolis Alemanes)</castella>
+        <precio>11€</precio>
+        <descripcion>Pasta rellena de carne picada, espinacas y condimentos.</descripcion>
+        <calorias>250 calorías por porción.</calorias>
+        <imagen src="./img/platos/maultaschen.jpeg"></imagen>
+        <alergenos>
+            <items src="./icons/gluten.ico"></items>
+        </alergenos>
+    </plato>
+    <plato tipo="postres">
+        <nombre>Rote Grütze</nombre>
+        <castella>(Compota de Frutos Rojos)</castella>
+        <precio>6€</precio>
+        <descripcion>Compota hecha con una mezcla de frutos rojos como fresas, frambuesas y grosellas, servida con crema batida.</descripcion>
+        <calorias>200 calorías por porción.</calorias>
+        <imagen src="./img/potres/rote-grutze.jpg"></imagen>
+        <alergenos>
+            <items>No tiene alérgenos.</items>
+        </alergenos>
+    </plato>
+    <plato tipo="platos">
+        <nombre>Spätzle</nombre>
+        <castella>(Pasta Típica Alemana)</castella>
+        <precio>8€</precio>
+        <descripcion>Pequeños ñoquis de pasta hechos con harina, huevo, sal y agua, a menudo servidos con salsa o como guarnición.</descripcion>
+        <calorias>300 calorías por porción.</calorias>
+        <imagen src="./img/platos/spatzle.jpg"></imagen>
+        <alergenos>
+            <items src="./icons/gluten.ico"></items>
+        </alergenos>
+    </plato>
+    <plato tipo="entrantes">
+        <nombre>Leberkäse</nombre>
+        <castella>(Pastel de Carne)</castella>
+        <precio>7€</precio>
+        <descripcion>Pastel de carne molida de cerdo y ternera, a menudo horneado en un molde rectangular y servido en rebanadas.</descripcion>
+        <calorias>500 calorías por porción.</calorias>
+        <imagen src="./img/entrantes/leberkase.jpg"></imagen>
+        <alergenos>
+            <items src="./icons/gluten.ico"></items>
+        </alergenos>
+    </plato>
+    <plato tipo="entrantes">
+        <nombre>Flammkuchen</nombre>
+        <castella>(Tarta Flambé)</castella>
+        <precio>10€</precio>
+        <descripcion>Pizza delgada de masa crujiente cubierta con crema fresca, cebolla y tocino.</descripcion>
+        <calorias>600 calorías por porción.</calorias>
+        <imagen src="./img/entrantes/flammkuchen.jpg"></imagen>
+        <alergenos>
+            <items src="./icons/gluten.ico"></items>
+            <item src="./icons/lacteos.ico"></item>
+        </alergenos>
+    </plato>
+    <promociones promo="postres">
+        <subtitle>Promociones:</subtitle>
+        <oferta>Pedazo de tarta gratis!!!</oferta>
+        <previa>Si hoy es tu cumpleaños. Presenta una identificación que lo verifica y te llevas un Schwarzwälder Kirschtorte totalmente gratis.</previa>
+    </promociones>
+    <promociones promo="postres">
+        <oferta>Fiestas y alegría</oferta>
+        <previa>Celebración en grandeee!. Por días de fiestas en Alemania se reducirá los postres un %50 por ciento de descuento.</previa>
+    </promociones>
+    <promociones promox="postres">
+        <subtitle>Promociones:</subtitle>
+        <oferta>Día de la unidad</oferta>
+        <previa>Por el día de la unidad te puedes llevar 3 Lebkuchen totalmente gratis.</previa>
+    </promociones>
+    <promociones promox="postres">
+        <oferta>Oktoberfest</oferta>
+        <previa>Durante el Oktoberfest las 5 primeras cervezas del día serán gratis y un 60% de descuento de Rote Grütze.</previa>
+    </promociones>
+    <promociones promoent="entrantes">
+        <subtitle>Promociones:</subtitle>
+        <oferta>Desayuno familiar</oferta>
+        <previa>Todos los sábados, descuentos del 20% de cualquier entrante como para celebrar junto a la familia.</previa>
+    </promociones>
+    <promociones promoent="entrantes">
+        <oferta>Entrante de 3x2</oferta>
+        <previa>Por la compra de dos Leberkäse te llevas uno gratis, de la misma forma con el Brezel.</previa>
+    </promociones>
+    <promociones promoentre="entrantes">
+        <subtitle>Promociones:</subtitle>
+        <oferta>Entrante tradicional</oferta>
+        <previa>Por la compra de un heringssalat y unos brezel por €8 junto una copa de vino, cada fin de mes.</previa>
+    </promociones>
+    <promociones promoentre="entrantes">
+        <oferta>Entrante quincenal</oferta>
+        <previa>Cada quincena descuento del 15% de descuento de flammkuchen y leberkäse</previa>
+    </promociones>
+    <promociones promoplato="platos">
+        <subtitle>Promociones:</subtitle>
+        <oferta>Descuento nacional</oferta>
+        <previa>Cada fiesta nacional el plato más famoso tendrá un 20% de descuento el cuál es wiener-schnitzel.</previa>
+    </promociones>
+    <promociones promoplato="platos">
+        <oferta>Combinación perfecta</oferta>
+        <previa>Por el consumo de Sauerbraten y Rinderroulade te llevas una botella de vino gratis.</previa>
+    </promociones>
+    <promociones promopla="platos">
+        <oferta>Toque vegetariano</oferta>
+        <previa>Combinación de Kartoffelsalat y Sauerkraut junto un te por 11€.</previa>
+    </promociones>
+    <promociones promopla="platos">
+        <oferta>Delicia final</oferta>
+        <previa>Cada fin de mes descuento del 10% de descuento de Kartoffelsuppe y Maultaschen.</previa>
+    </promociones>
+</menu>
