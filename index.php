@@ -109,13 +109,13 @@
                                     echo '</div>';
                                     echo "<p>".$platillo->castella."----------<strong>".$platillo->precio."</strong></p>";
                                     echo "<p>".$platillo->descripcion."</p>";
-                                    echo '<p><img src="'.$platillo->alergenos->items['src'].'"><img src="'.$platillo->alergenos->item['src'].'">'.$platillo->alergenos->items.'</p>';
+                                    echo '<p><img src="'.$platillo->alergenos->items['src'].'"><img src="'.$platillo->alergenos->item['src'].'"><img src="'.$platillo->alergenos->ite['src'].'"'.$platillo->alergenos->items.'</p>';
                                     echo "<p>".$platillo->calorias."</p>";
                                     echo "<h5>".$platillo->nombre."</h5>";
                                     echo '</div>';
                                     echo '</div>';
                                     echo '</div>';
-                                } 
+                                }
                             }
                         } else {
                             foreach($menu->plato as $platillo){
@@ -129,7 +129,7 @@
                                     echo '</div>';
                                     echo "<p>".$platillo->castella."----------<strong>".$platillo->precio."</strong></p>";
                                     echo "<p>".$platillo->descripcion."</p>";
-                                    echo '<p><img src="'.$platillo->alergenos->items['src'].'"><img src="'.$platillo->alergenos->item['src'].'">'.$platillo->alergenos->items.'</p>';
+                                    echo '<p><img src="'.$platillo->alergenos->items['src'].'"><img src="'.$platillo->alergenos->item['src'].'"><img src="'.$platillo->alergenos->ite['src'].'"'.$platillo->alergenos->items.'</p>';
                                     echo "<p>".$platillo->calorias."</p>";
                                     echo "<h5>".$platillo->nombre."</h5>";
                                     echo '</div>';
@@ -175,7 +175,7 @@
                                 echo '</div>';
                                 echo "<p>".$platillo->castella."----------<strong>".$platillo->precio."</strong></p>";
                                 echo "<p>".$platillo->descripcion."</p>";
-                                echo '<p><img src="'.$platillo->alergenos->items['src'].'"><img src="'.$platillo->alergenos->item['src'].'">'.$platillo->alergenos->items.'</p>';
+                                echo '<p><img src="'.$platillo->alergenos->items['src'].'"><img src="'.$platillo->alergenos->item['src'].'"><img src="'.$platillo->alergenos->ite['src'].'"'.$platillo->alergenos->items.'</p>';
                                 echo "<p>".$platillo->calorias."</p>";
                                 echo "<h5>".$platillo->nombre."</h5>";
                                 echo '</div>';
@@ -195,7 +195,7 @@
                                 echo '</div>';
                                 echo "<p>".$platillo->castella."----------<strong>".$platillo->precio."</strong></p>";
                                 echo "<p>".$platillo->descripcion."</p>";
-                                echo '<p><img src="'.$platillo->alergenos->items['src'].'"><img src="'.$platillo->alergenos->item['src'].'">'.$platillo->alergenos->items.'</p>';
+                                echo '<p><img src="'.$platillo->alergenos->items['src'].'"><img src="'.$platillo->alergenos->item['src'].'"><img src="'.$platillo->alergenos->ite.'"'.$platillo->alergenos->items.'</p>';
                                 echo "<p>".$platillo->calorias."</p>";
                                 echo "<h5>".$platillo->nombre."</h5>";
                                 echo '</div>';
@@ -240,7 +240,7 @@
                                 echo '</div>';
                                 echo "<p>".$platillo->castella."----------<strong>".$platillo->precio."</strong></p>";
                                 echo "<p>".$platillo->descripcion."</p>";
-                                echo '<p><img src="'.$platillo->alergenos->items['src'].'"><img src="'.$platillo->alergenos->item['src'].'">'.$platillo->alergenos->items.'</p>';
+                                echo '<p><img src="'.$platillo->alergenos->items['src'].'"><img src="'.$platillo->alergenos->item['src'].'"><img src="'.$platillo->alergenos->ite['src'].'"'.$platillo->alergenos->items.'</p>';
                                 echo "<p>".$platillo->calorias."</p>";
                                 echo "<h5>".$platillo->nombre."</h5>";
                                 echo '</div>';
@@ -260,7 +260,7 @@
                                 echo '</div>';
                                 echo "<p>".$platillo->castella."----------<strong>".$platillo->precio."</strong></p>";
                                 echo "<p>".$platillo->descripcion."</p>";
-                                echo '<p><img src="'.$platillo->alergenos->items['src'].'"><img src="'.$platillo->alergenos->item['src'].'">'.$platillo->alergenos->items.'</p>';
+                                echo '<p><img src="'.$platillo->alergenos->items['src'].'"><img src="'.$platillo->alergenos->item['src'].'"><img src="'.$platillo->alergenos->ite['src'].'"'.$platillo->alergenos->items.'</p>';
                                 echo "<p>".$platillo->calorias."</p>";
                                 echo "<h5>".$platillo->nombre."</h5>";
                                 echo '</div>';

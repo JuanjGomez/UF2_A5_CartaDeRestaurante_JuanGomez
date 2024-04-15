@@ -38,8 +38,9 @@
     <plato tipo="entrantes">
         <nombre>Gurkensalat</nombre>
         <castella>(Ensalada de Pepino)</castella>
-        <precio>3€</precio>
-        <descripcion>Rodajas finas de pepino marinadas en vinagre, azúcar y eneldo.</calorias>
+        <precio>6€</precio>
+        <descripcion>Rodajas finas de pepino marinadas en vinagre, azúcar y eneldo.</descripcion>
+        <calorias>75 calorías por porción.</calorias>
         <imagen src="./img/entrantes/gurkensalat.jpg"></imagen>
         <alergenos>
             <items>No tiene alergenos.</items>
@@ -48,7 +49,7 @@
     <plato tipo="platos">
         <nombre>Sauerkraut</nombre>
         <castella>(Chucrut)</castella>
-        <precio>6€</precio>
+        <precio>5€</precio>
         <descripcion>Col fermentada, cortada en finas tiras y cocida con vinagre y especias.</descripcion>
         <calorias>18 calorías por cada 100g.</calorias>
         <imagen src="./img/platos/sauerkraut.jpg" ></imagen>
@@ -85,9 +86,21 @@
         <precio>18€</precio>
         <descripcion>Carne de res marinada en una mezcla de vinagre, agua, especias y vegetales, luego asada lentamente.</descripcion>
         <calorias>480calorías por porción.</calorias>
-        <imagen src="./img//platos/sauerbraten.jpg"></imagen>
+        <imagen src="./img/platos/sauerbraten.jpg"></imagen>
         <alergenos>
             <items>No tiene alérgenos.</items>
+        </alergenos>
+    </plato>
+    <plato tipo="postres">
+        <nombre>Kaiserschmarrn</nombre>
+        <castella>(Pancake Imperial)</castella>
+        <precio>8€</precio>
+        <descripcion>Trozo de masa de panqueque esponjosa, cocidos a la plancha, salteados con mantequilla, con azúcar glas y frutas.</descripcion>
+        <calorias>380 calorías por porción.</calorias>
+        <imagen src="./img/potres/kaiserschmarrn.jpg"></imagen>
+        <alergenos>
+            <items src="./icons/gluten.ico"></items>
+            <item src="./icons/lacteos.ico"></item>
         </alergenos>
     </plato>
     <plato tipo="platos">
@@ -99,6 +112,19 @@
         <imagen src="./img/platos/rinderroulade.jpg"></imagen>
         <alergenos>
             <items>No tiene alérgenos.</items>
+        </alergenos>
+    </plato>
+    <plato tipo="postres">
+        <nombre>Bienenstich</nombre>
+        <castella>(Pastel de Abeja)</castella>
+        <precio>9€</precio>
+        <descripcion>Bizcocho esponjoso relleno de crema pastelera y cubierto con una capa de almendras caramelizadas</descripcion>
+        <calorias>400 calorías por porción.</calorias>
+        <imagen src="./img/potres/ienenstich.jpg"></imagen>
+        <alergenos>
+            <items src="./icons/gluten.ico"></items>
+            <item src="./icons/lacteos.ico"></item>
+            <ite src="./icons/sesamo.ico"></ite>
         </alergenos>
     </plato>
     <plato tipo="entrantes">
@@ -191,6 +217,17 @@
             <items>No tiene alérgenos.</items>
         </alergenos>
     </plato>
+    <plato tipo="entrantes">
+        <nombre>Weiss wurstsalat</nombre>
+        <castella>(Ensalada de Salchicha Blanca)</castella>
+        <precio>7€</precio>
+        <descripcion>Descripción: Salchichas blancas cortadas en rodajas finas y mezcladas con cebolla, pepinillos y una vinagreta de mostaza suave.</descripcion>
+        <calorias>225 calorías por porción.</calorias>
+        <imagen src="./img/entrantes/weisswurstsalat.jpg"></imagen>
+        <alergenos>
+            <items src="./icons/mostaza.ico"></items>
+        </alergenos>
+    </plato>
     <plato tipo="postres">
         <nombre>Lebkuchen</nombre>
         <castella>(Pan de Especias)</castella>
@@ -201,6 +238,17 @@
         <alergenos>
             <items src="./icons/gluten.ico"></items>
             <item src="./icons/sesamo.ico"></item>
+        </alergenos>
+    </plato>
+    <plato tipo="entrantes">
+        <nombre>Rote-Bete-Salat</nombre>
+        <castella>(Ensalada de Remolacha)</castella>
+        <precio>6€</precio>
+        <descripcion>Rodajas finas de remolacha cocida, mezcladas con cebolla roja, vinagre, aceite de oliva y eneldo.</descripcion>
+        <calorias>120 calorías por porción.</calorias>
+        <imagen src="./img/entrantes/rote-bete-salat.jpg"></imagen>
+        <alergenos>
+            <items>No tiene alergenos.</items>
         </alergenos>
     </plato>
     <plato tipo="platos">
@@ -234,6 +282,17 @@
         <imagen src="./img/platos/maultaschen.jpeg"></imagen>
         <alergenos>
             <items src="./icons/gluten.ico"></items>
+        </alergenos>
+    </plato>
+    <plato tipo="entrantes">
+        <nombre>Gemischter Salat</nombre>
+        <castella>(Ensalada Mixta)</castella>
+        <precio>6€</precio>
+        <descripcion>Mezcla fresca de lechugas, tomate, pepino, zanahoria y rábano, aderezada con vinagreta de hierbas.</descripcion>
+        <calorias>120 calorías por porción.</calorias>
+        <imagen src="./img/entrantes/gemischter-salat.jpeg"></imagen>
+        <alergenos>
+            <items>No tiene alergenos.</items>
         </alergenos>
     </plato>
     <plato tipo="postres">
